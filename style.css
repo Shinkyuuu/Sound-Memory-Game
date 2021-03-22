@@ -44,9 +44,9 @@ button {
   font-family: Georgia, arial, serif;
   font-size: 15px;
   background-color: var(--faded-green);
-  color: white;
   border-radius: 10px;
   border-style: solid;
+  color: white;
   border: none;
   outline: none;
 }
@@ -70,29 +70,27 @@ button.on {
   display: inline-block;
   min-width: 100px;
   margin-left: 20px;
-  
 }
 
 .circle {
+  height: 24px;
+  width: 24px;
   position: static;
   margin-bottom:-8px;
   margin-left: 5px;
-  height: 24px;
-  width: 24px;
   background-color: var(--pale);
   border-radius: 50%; 
   display: inline-block;
 }
 
 #gameSubHeader {
-  
   color: white;
   text-align: center;
 }
 
 #gameButtonArea {
-  margin: 0 auto;
   max-width: 640px;
+  margin: 0 auto;
 }
 
 #gameButtonArea > button {
@@ -171,8 +169,8 @@ button.on {
 }
 
 #gameButtonArea > .colorblind {
-  color: var(--dark-green);
   background-image: none;
+  color: var(--dark-green);
 }
 
 #gameButtonArea > .clickable:hover {

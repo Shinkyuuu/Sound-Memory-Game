@@ -6,7 +6,7 @@ const freqMap = {
   3: 'E', //659.26, // E
   4: 'F', //698.46, // F
   5: 'G', //783.99, // G
-  6: 'A'//880.0 // A
+  6: 'A' //880.0 // A
 };
 
 
@@ -31,6 +31,7 @@ var modeDict = {
 var prevMode = "normalMode";
 var timer; // (Determined in guess function)
 var timerCounter; // (Determined in guess function)
+
 
 function colorBlindOn() {
   for (let i = 1; i <= 6; i++) {
@@ -129,6 +130,7 @@ function randomMode() {
 
 
 function normalMode() {
+    //If normal mode is active, then everything is... normal.
   if (modeDict["normalMode"] == true) {
     pattern = [2, 6, 5, 3, 2, 1, 2, 4];
   }
@@ -215,19 +217,17 @@ function playSingleClue(btn) {
     lightButton(btn);
     playTone(btn, clueHoldTime);
     setTimeout(clearButton, clueHoldTime, btn);
-  } else {
-    clearTimeout(patternTimeout);
   }
 }
 
 
 function playClueSequence() {
   challengePatternTime(progress);
-  guessCounter = 0;
-  disableGameBtn();
-  let delay = nextClueWaitTime; // Set delay to initial wait time
   console.log(progress);
+  disableGameBtn();
+  guessCounter = 0;
   document.getElementById("levelCounter").innerHTML = "Level: " + (progress + 1);
+  let delay = nextClueWaitTime; // Set delay to initial wait time
 
   for (let i = 0; i <= progress; i++) {
     // For each clue that is revealed so far
@@ -265,7 +265,8 @@ function guess(btn) {
         playClueSequence();
       }
     } else {
-      if (modeDict["challengeMode"]) { // If challengeMode, give user a limited time to guess next button.
+      // If challengeMode, give user a limited time to guess next button.
+      if (modeDict["challengeMode"]) { 
         document.getElementById("timeLeft").innerHTML = "Time Left: " + timerCounter;
         timer = setInterval(challengeTimer, 1);
       }
@@ -283,7 +284,8 @@ function guess(btn) {
 // The timer for challengeMode
 function challengeTimer() {
   document.getElementById("timeLeft").innerHTML = "Time Left: " + (timerCounter - 1);
-  
+
+  // If the timer reaches zero, the user loses a life and pattern replays.
   if (timerCounter <= 0) {
     userWrong();
     playClueSequence();
@@ -299,6 +301,7 @@ function userWrong() {
   failCounter--;
   document.getElementById("timeLeft").innerHTML = "&nbsp";
   
+  // If user runs out of lives, he/she loses.
   if (failCounter <= 0) {
     loseGame();
   } else {
