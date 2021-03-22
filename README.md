@@ -37,6 +37,8 @@ The following **additional** features are implemented:
 - [X] Buttons grow a little bit on hover and when activated
 - [X] Color blind mode
 - [X] Game modes are able to be toggled between
+- [X] user cannot press buttons when not his/her turn
+- [X] Count which level user is on
 
 ## Video Walkthrough
 
