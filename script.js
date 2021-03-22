@@ -232,7 +232,7 @@ function playClueSequence() {
   for (let i = 0; i <= progress; i++) {
     // For each clue that is revealed so far
     console.log("play single clue: " + pattern[i] + " in " + delay + "ms");
-    patternTimeout = setTimeout(playSingleClue, delay, pattern[i]); // et a timeout to play that clue
+    patternTimeout = setTimeout(playSingleClue, delay, pattern[i]); // Set a timeout to play that clue
     delay += clueHoldTime;
     delay += cluePauseTime;
   }
