@@ -59,7 +59,7 @@ Here's a walkthrough of implemented user stories:
     </li>
     </ul>
 
-    ##### JavaScript Resources
+    #### JavaScript Resources
     <ul>
     <li>https://www.w3schools.com/jsref/jsref_push.asp 
     </li>
@@ -79,7 +79,7 @@ Here's a walkthrough of implemented user stories:
     </li>
     </ul>
 
-    ##### CSS Resources
+    #### CSS Resources
     <ul>
     <li>https://stackoverflow.com/questions/32459646/removing-the-shadow-from-a-button </li>
     <li>https://travis.media/how-to-make-an-item-grow-on-hover-with-css/</li>
@@ -103,7 +103,7 @@ Here's a walkthrough of implemented user stories:
     </li>
     </ul>
 
-    ##### MISC Resources
+    #### MISC Resources
     <ul>
     <li>http://theremin.music.uiowa.edu/MISpiano.html 
     </li>
