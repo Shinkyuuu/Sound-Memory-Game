@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Sequence Memory!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  
+  <body>
+    <div id="mainDiv">
+      <button id="colorBlindBtn" onclick="colorBlindToggle()">
+        Color blind
+      </button>
+      
+      <h1>Sequence Memory!</h1>
+      
+      <p>
+        Welcome to the Sequence Memory Game!
+        The goal is to copy the sequence of buttons shown to you while it increases in length.
+        <b>Good luck!</b>
+      </p>
+      
+      <div id="gameElements">
+        <div id="gameHeader">
+          <button id="startBtn" class="gameButton" onclick="startGame()">
+            Start
+          </button>
+          
+          <button id="stopBtn" class="gameButton hidden" onclick="stopGame()">
+            Stop
+          </button>
+          
+          <div id="lives">
+            <div id="life1" class="circle"></div>
+            <div id="life2" class="circle"></div>
+            <div id="life3" class="circle"></div>  
+          </div>
+          
+          <div id="gameSubHeader">
+            <h3 id="levelCounter">&nbsp</h3>
+            <h3 id="timeLeft">&nbsp</h3>
+          </div>
+        </div>
+        
+        <div id="gameButtonArea">
+          <audio src="https://cdn.glitch.com/37d7fa50-2e50-4d17-9d47-a0e6972248b5%2FPianoC.mp3?v=1616047012407" id="pianoC"></audio>
+          <audio src="https://cdn.glitch.com/37d7fa50-2e50-4d17-9d47-a0e6972248b5%2FPianoD.mp3?v=1616047015441" id="pianoD"></audio>
+          <audio src="https://cdn.glitch.com/37d7fa50-2e50-4d17-9d47-a0e6972248b5%2FPianoE.mp3?v=1616047537437" id="pianoE"></audio>
+          <audio src="https://cdn.glitch.com/37d7fa50-2e50-4d17-9d47-a0e6972248b5%2FPianoF.mp3?v=1616047540710" id="pianoF"></audio>
+          <audio src="https://cdn.glitch.com/37d7fa50-2e50-4d17-9d47-a0e6972248b5%2FPianoG.mp3?v=1616047544058" id="pianoG"></audio>
+          <audio src="https://cdn.glitch.com/37d7fa50-2e50-4d17-9d47-a0e6972248b5%2FPianoA.mp3?v=1616047534162" id="pianoA"></audio>
+          
+          <button id="button1" class="clickable" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone(1)">C</button>
+          <button id="button2" class="clickable" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone(2)">D</button>
+          <button id="button3" class="clickable" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone(3)">E</button>
+          <button id="button4" class="clickable" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone(4)">F</button>
+          <button id="button5" class="clickable" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone(5)">G</button>
+          <button id="button6" class="clickable" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone(6)">A</button>
+        </div>
+      </div>
+      
+      <div id="specialModes">
+        <button id="lambMode" onclick="modeSelector('lambMode')">
+        Mary Had a Little Lamb
+        </button>
+        <button id="randomMode" onclick="modeSelector('randomMode')">
+          Random Pattern
+        </button>
+        <button id="challengeMode" onclick="modeSelector('challengeMode')">
+          Challenge
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
