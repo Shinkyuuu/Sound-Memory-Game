@@ -53,13 +53,21 @@ Here's a walkthrough of implemented user stories:
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 
-    http://www.swarthmore.edu/NatSci/ceverba1/Class/e5_2007/MusicalScales.html
-    https://www.w3schools.com/jsref/jsref_push.asp
-    https://www.w3schools.com/js/js_random.asp
-    https://stackoverflow.com/questions/32459646/removing-the-shadow-from-a-button
-    https://www.geeksforgeeks.org/javascript-pass-string-parameter-in-onclick-function/
+    <u>HTML Resources</u>
+    https://www.geeksforgeeks.org/javascript-pass-string-parameter-in-onclick-function/ 
+
+    <u>JavaScript Resources</u>
+    https://www.w3schools.com/jsref/jsref_push.asp 
+    https://www.w3schools.com/js/js_random.asp 
     https://pietschsoft.com/post/2015/09/05/javascript-basics-how-to-create-a-dictionary-with-keyvalue-pairs
     https://www.tutorialspoint.com/Remove-elements-from-a-Dictionary-using-Javascript
+    https://www.w3schools.com/js/js_htmldom_html.asp
+    https://programminghead.com/how-to-play-audio-in-html-using-javascript/
+    https://www.w3schools.com/jsref/met_win_setinterval.asp
+    https://www.w3schools.com/jsref/met_win_clearinterval.asp
+
+    <u>CSS Resources</u>
+    https://stackoverflow.com/questions/32459646/removing-the-shadow-from-a-button 
     https://travis.media/how-to-make-an-item-grow-on-hover-with-css/
     https://stackoverflow.com/questions/19886843/how-to-remove-outline-border-from-input-button
     https://www.w3schools.com/css/css3_variables.asp
@@ -67,14 +75,12 @@ Here's a walkthrough of implemented user stories:
     https://designers.hubspot.com/docs/snippets/design/centering-your-website-using-max-width-and-auto-margins
     https://stackoverflow.com/questions/9067892/how-to-align-two-elements-on-the-same-line-without-changing-html
     https://stackoverflow.com/questions/21511641/css-button-text-and-button-background-different-opacity/21511748
-    https://stackoverflow.com/questions/18750803/getting-the-button-into-the-top-right-corner-inside-the-div-box/18750849#:~:text=2%20Answers&text=Just%20add%20position%3Aabsolute%3B%20top,the%20CSS%20for%20your%20button.
+    https://stackoverflow.com/questions/18750803/getting-the-button-into-the-top-right-corner-inside-the-div-box
     https://www.w3schools.com/cssref/pr_text_text-decoration.asp
-    https://www.w3schools.com/js/js_htmldom_html.asp
-    http://theremin.music.uiowa.edu/MISpiano.html
-    https://programminghead.com/how-to-play-audio-in-html-using-javascript/
-    https://www.w3schools.com/jsref/met_win_setinterval.asp
-    https://www.w3schools.com/jsref/met_win_clearinterval.asp
     https://www.w3schools.com/cssref/pr_background-image.asp
+
+    <u>MISC Resources</u>
+    http://theremin.music.uiowa.edu/MISpiano.html   
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 
