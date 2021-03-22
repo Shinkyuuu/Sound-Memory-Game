@@ -53,7 +53,7 @@ Here's a walkthrough of implemented user stories:
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 
-    ##### HTML Resources
+    #### HTML Resources
     <ul>
     <li>https://www.geeksforgeeks.org/javascript-pass-string-parameter-in-onclick-function/ 
     </li>
