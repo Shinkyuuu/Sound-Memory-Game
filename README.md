@@ -53,13 +53,13 @@ Here's a walkthrough of implemented user stories:
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 
-    ### HTML Resources
+    ##### HTML Resources
     <ul>
     <li>https://www.geeksforgeeks.org/javascript-pass-string-parameter-in-onclick-function/ 
     </li>
     </ul>
 
-    ### JavaScript Resources
+    ##### JavaScript Resources
     <ul>
     <li>https://www.w3schools.com/jsref/jsref_push.asp 
     </li>
@@ -79,7 +79,7 @@ Here's a walkthrough of implemented user stories:
     </li>
     </ul>
 
-    ### CSS Resources
+    ##### CSS Resources
     <ul>
     <li>https://stackoverflow.com/questions/32459646/removing-the-shadow-from-a-button </li>
     <li>https://travis.media/how-to-make-an-item-grow-on-hover-with-css/</li>
@@ -103,13 +103,12 @@ Here's a walkthrough of implemented user stories:
     </li>
     </ul>
 
-    ### MISC Resources
+    ##### MISC Resources
     <ul>
     <li>http://theremin.music.uiowa.edu/MISpiano.html 
     </li>
     </ul>
       
-
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 
     A challenge I encountered when developing this project was having the buttons at the bottom of the screen toggle between select game modes. The difficultly came not from making it functional but from making it efficient. “lambMode” was the first mode I implemented and the function that made 
