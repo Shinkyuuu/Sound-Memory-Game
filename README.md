@@ -44,6 +44,12 @@ Here's a walkthrough of implemented user stories:
 
 <img src="http://g.recordit.co/uYRie3blLl.gif" width=250><br>
 
+<img src="http://g.recordit.co/dkdUakD4sn.gif" width=250><br>
+
+<img src="http://g.recordit.co/XcKzouAc68.gif" width=250><br>
+
+<img src="http://g.recordit.co/6cnPti2vRY.gif" width=250><br>
+
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
