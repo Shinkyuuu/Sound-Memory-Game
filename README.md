@@ -6,7 +6,7 @@ Submitted by: Cody Park
 
 Time spent: ~14.5 hours spent in total (~2.5 hours on base game, ~12 hours on additional features)
 
-Link to project: https://glitch.com/edit/#!river-upbeat-hole
+Link to project: https://glitch.com/edit/#!/river-upbeat-hole
 
 ## Required Functionality
 
