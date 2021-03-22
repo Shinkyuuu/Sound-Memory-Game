@@ -53,34 +53,62 @@ Here's a walkthrough of implemented user stories:
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 
-    <u>HTML Resources</u>
-    https://www.geeksforgeeks.org/javascript-pass-string-parameter-in-onclick-function/ 
+    ### HTML Resources
+    <ul>
+    <li>https://www.geeksforgeeks.org/javascript-pass-string-parameter-in-onclick-function/ 
+    </li>
+    </ul>
 
-    <u>JavaScript Resources</u>
-    https://www.w3schools.com/jsref/jsref_push.asp 
-    https://www.w3schools.com/js/js_random.asp 
-    https://pietschsoft.com/post/2015/09/05/javascript-basics-how-to-create-a-dictionary-with-keyvalue-pairs
-    https://www.tutorialspoint.com/Remove-elements-from-a-Dictionary-using-Javascript
-    https://www.w3schools.com/js/js_htmldom_html.asp
-    https://programminghead.com/how-to-play-audio-in-html-using-javascript/
-    https://www.w3schools.com/jsref/met_win_setinterval.asp
-    https://www.w3schools.com/jsref/met_win_clearinterval.asp
+    ### JavaScript Resources
+    <ul>
+    <li>https://www.w3schools.com/jsref/jsref_push.asp 
+    </li>
+    <li>https://www.w3schools.com/js/js_random.asp 
+    </li>
+    <li>https://pietschsoft.com/post/2015/09/05/javascript-basics-how-to-create-a-dictionary-with-keyvalue-pairs
+    </li>
+    <li>https://www.tutorialspoint.com/Remove-elements-from-a-Dictionary-using-Javascript
+    </li>
+    <li>https://www.w3schools.com/js/js_htmldom_html.asp
+    </li>
+    <li>https://programminghead.com/how-to-play-audio-in-html-using-javascript/
+    </li>
+    <li>https://www.w3schools.com/jsref/met_win_setinterval.asp
+    </li>
+    <li>https://www.w3schools.com/jsref/met_win_clearinterval.asp
+    </li>
+    </ul>
 
-    <u>CSS Resources</u>
-    https://stackoverflow.com/questions/32459646/removing-the-shadow-from-a-button 
-    https://travis.media/how-to-make-an-item-grow-on-hover-with-css/
-    https://stackoverflow.com/questions/19886843/how-to-remove-outline-border-from-input-button
-    https://www.w3schools.com/css/css3_variables.asp
-    https://stackoverflow.com/questions/9067892/how-to-align-two-elements-on-the-same-line-without-changing-html
-    https://designers.hubspot.com/docs/snippets/design/centering-your-website-using-max-width-and-auto-margins
-    https://stackoverflow.com/questions/9067892/how-to-align-two-elements-on-the-same-line-without-changing-html
-    https://stackoverflow.com/questions/21511641/css-button-text-and-button-background-different-opacity/21511748
-    https://stackoverflow.com/questions/18750803/getting-the-button-into-the-top-right-corner-inside-the-div-box
-    https://www.w3schools.com/cssref/pr_text_text-decoration.asp
-    https://www.w3schools.com/cssref/pr_background-image.asp
+    ### CSS Resources
+    <ul>
+    <li>https://stackoverflow.com/questions/32459646/removing-the-shadow-from-a-button </li>
+    <li>https://travis.media/how-to-make-an-item-grow-on-hover-with-css/</li>
+    <li>https://stackoverflow.com/questions/19886843/how-to-remove-outline-border-from-input-button
+    </li>
+    <li>https://www.w3schools.com/css/css3_variables.asp
+    </li>
+    <li>https://stackoverflow.com/questions/9067892/how-to-align-two-elements-on-the-same-line-without-changing-html
+    </li>
+    <li>https://designers.hubspot.com/docs/snippets/design/centering-your-website-using-max-width-and-auto-margins
+    </li>
+    <li>https://stackoverflow.com/questions/9067892/how-to-align-two-elements-on-the-same-line-without-changing-html
+    </li>
+    <li>https://stackoverflow.com/questions/21511641/css-button-text-and-button-background-different-opacity/21511748
+    </li>
+    <li>https://stackoverflow.com/questions/18750803/getting-the-button-into-the-top-right-corner-inside-the-div-box
+    </li>
+    <li>https://www.w3schools.com/cssref/pr_text_text-decoration.asp
+    </li>
+    <li>https://www.w3schools.com/cssref/pr_background-image.asp
+    </li>
+    </ul>
 
-    <u>MISC Resources</u>
-    http://theremin.music.uiowa.edu/MISpiano.html   
+    ### MISC Resources
+    <ul>
+    <li>http://theremin.music.uiowa.edu/MISpiano.html 
+    </li>
+    </ul>
+      
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 
