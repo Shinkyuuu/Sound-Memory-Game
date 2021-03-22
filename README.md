@@ -4,7 +4,7 @@ Sequence Memory is a Light & Sound Memory game to apply for CodePath's SITE Prog
 
 Submitted by: Cody Park
 
-Time spent: 14.5 hours spent in total (2.5 hours on base game, 12 hours on additional features)
+Time spent: ~14.5 hours spent in total (~2.5 hours on base game, ~12 hours on additional features)
 
 Link to project: https://glitch.com/edit/#!river-upbeat-hole
 
